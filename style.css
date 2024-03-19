@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    background-image: url(background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,6 +24,11 @@ body{
     background-color: hsla(0, 0%, 100%, 0.1);
     width: 100%;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
 
 @media screen and (max-width: 500px){
 
